@@ -1,0 +1,18 @@
+mysql:
+  host: local
+  port: 3306 
+  db: gvb_db
+  user: root
+  password: root
+  log_level: dev
+logger:
+  level: info
+  prefix: '[gin_project]'
+  directory: log
+  show_line: true
+  log_in_console: true
+system:
+  host: local
+  port: 8080
+  env: dev
+
